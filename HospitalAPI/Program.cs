@@ -19,9 +19,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseDeveloperExceptionPage();
 app.UseAuthorization();
 
 app.MapControllers();
-Sitemanager.Main();
+//Sitemanager.Main();
 app.Run();

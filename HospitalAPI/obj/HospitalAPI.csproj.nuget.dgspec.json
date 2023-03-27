@@ -44,6 +44,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Amazon.Lambda.AspNetCoreServer": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
             "MD5": {
               "target": "Package",
               "version": "[2.0.3, )"

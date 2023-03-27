@@ -1,9 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "liJEpeKIyRh53b3QFwkC/dJ/lS1rrU5T5P7jx0nqwciarLwP40wJkwqOfg3nsUb5bEIYMdgUakNns+NOfRYtLQ==",
+  "dgSpecHash": "8jCmjznb32H5DehuLi3wcmpyDZcaQYZjh0zyBiZfUtrbT6UTMWrvp8ygklkqlOikypQmb0gJikk27xVJjIZVjA==",
   "success": true,
   "projectFilePath": "G:\\C# Projects\\web\\API\\HospitalAPI\\HospitalAPI\\HospitalAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\tecyo\\.nuget\\packages\\amazon.lambda.apigatewayevents\\2.6.0\\amazon.lambda.apigatewayevents.2.6.0.nupkg.sha512",
+    "C:\\Users\\tecyo\\.nuget\\packages\\amazon.lambda.applicationloadbalancerevents\\2.1.0\\amazon.lambda.applicationloadbalancerevents.2.1.0.nupkg.sha512",
+    "C:\\Users\\tecyo\\.nuget\\packages\\amazon.lambda.aspnetcoreserver\\8.1.0\\amazon.lambda.aspnetcoreserver.8.1.0.nupkg.sha512",
+    "C:\\Users\\tecyo\\.nuget\\packages\\amazon.lambda.core\\2.1.0\\amazon.lambda.core.2.1.0.nupkg.sha512",
+    "C:\\Users\\tecyo\\.nuget\\packages\\amazon.lambda.logging.aspnetcore\\3.1.0\\amazon.lambda.logging.aspnetcore.3.1.0.nupkg.sha512",
+    "C:\\Users\\tecyo\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.3.1\\amazon.lambda.serialization.systemtextjson.2.3.1.nupkg.sha512",
     "C:\\Users\\tecyo\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\tecyo\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\tecyo\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

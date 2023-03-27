@@ -16,7 +16,7 @@ namespace HospitalAPI.models
         public DbSet<Post> posts { get; set; }
         protected override  void OnConfiguring(DbContextOptionsBuilder options)
         {
-            options.UseSqlServer(@"Server=MOHAMEDYASSER\SQLEXPRESS;Database=hospitalDB;TrustServerCertificate=True;Trusted_Connection=True");
+            options.UseSqlServer(@"Server=MOHAMEDYASSER1\SQLEXPRESS;Database=hospitalDB;TrustServerCertificate=True;Trusted_Connection=True");
         }
     }
 }
