@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>G:\C# Projects\web\API\HospitalAPI\HospitalAPI\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2023-03-27T22:52:14.3808975Z;True|2023-03-28T00:47:03.4849328+02:00;True|2023-03-28T00:33:04.1450537+02:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

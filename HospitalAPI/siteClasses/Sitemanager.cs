@@ -1,4 +1,6 @@
 ﻿using HospitalAPI.models;
+using Microsoft.EntityFrameworkCore;
+
 namespace HospitalAPI.siteClasses
 {
     public static class Sitemanager
@@ -19,6 +21,10 @@ namespace HospitalAPI.siteClasses
         public static void Main()
         {
              mydb= new db();
+           // mydb.Database.OpenConnection();
+            
+            // mydb.Update(null);
+            //return;
             var user= mydb.users.Find(1);
             if (user == null)
             {
