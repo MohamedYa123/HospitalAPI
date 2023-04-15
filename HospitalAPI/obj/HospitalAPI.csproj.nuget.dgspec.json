@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\C# Projects\\web\\API\\HospitalAPI\\HospitalAPI\\HospitalAPI.csproj": {}
+    "G:\\projects\\C# Projects\\web\\API\\HospitalAPI\\HospitalAPI\\HospitalAPI.csproj": {}
   },
   "projects": {
-    "G:\\C# Projects\\web\\API\\HospitalAPI\\HospitalAPI\\HospitalAPI.csproj": {
+    "G:\\projects\\C# Projects\\web\\API\\HospitalAPI\\HospitalAPI\\HospitalAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\C# Projects\\web\\API\\HospitalAPI\\HospitalAPI\\HospitalAPI.csproj",
+        "projectUniqueName": "G:\\projects\\C# Projects\\web\\API\\HospitalAPI\\HospitalAPI\\HospitalAPI.csproj",
         "projectName": "HospitalAPI",
-        "projectPath": "G:\\C# Projects\\web\\API\\HospitalAPI\\HospitalAPI\\HospitalAPI.csproj",
+        "projectPath": "G:\\projects\\C# Projects\\web\\API\\HospitalAPI\\HospitalAPI\\HospitalAPI.csproj",
         "packagesPath": "C:\\Users\\tecyo\\.nuget\\packages\\",
-        "outputPath": "G:\\C# Projects\\web\\API\\HospitalAPI\\HospitalAPI\\obj\\",
+        "outputPath": "G:\\projects\\C# Projects\\web\\API\\HospitalAPI\\HospitalAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

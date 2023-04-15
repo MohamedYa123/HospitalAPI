@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8jCmjznb32H5DehuLi3wcmpyDZcaQYZjh0zyBiZfUtrbT6UTMWrvp8ygklkqlOikypQmb0gJikk27xVJjIZVjA==",
+  "dgSpecHash": "ceRrT59Jvuh0OvJ3g/q2JYXVQc0nNIPXFTyPiJd1K4LltgVaTAmxhq/a5b+RxEtftXY2cW6bgfKgqmLVuANSGw==",
   "success": true,
-  "projectFilePath": "G:\\C# Projects\\web\\API\\HospitalAPI\\HospitalAPI\\HospitalAPI.csproj",
+  "projectFilePath": "G:\\projects\\C# Projects\\web\\API\\HospitalAPI\\HospitalAPI\\HospitalAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tecyo\\.nuget\\packages\\amazon.lambda.apigatewayevents\\2.6.0\\amazon.lambda.apigatewayevents.2.6.0.nupkg.sha512",
     "C:\\Users\\tecyo\\.nuget\\packages\\amazon.lambda.applicationloadbalancerevents\\2.1.0\\amazon.lambda.applicationloadbalancerevents.2.1.0.nupkg.sha512",

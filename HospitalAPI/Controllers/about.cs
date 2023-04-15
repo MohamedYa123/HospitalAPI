@@ -11,12 +11,18 @@ namespace HospitalAPI.Controllers
         [HttpGet]
         public r aboutv()
         {
-            return new r { def = "gg" };
+            return new r ("gg",0 );
         }
     }
     public class r
     {
-        public string def { get; set; } = "gg";
+        public string information { get; set; } = "gg";
+        public int messageCode { get; set; }//1 done, -1 error, 0 info
+        public r(string information,int messageCode)
+        {
+            this.information = information;
+            this.messageCode = messageCode;
+        }
 
     }
 }

@@ -1,4 +1,5 @@
-﻿using HospitalAPI.models;
+﻿using Azure;
+using HospitalAPI.models;
 using Microsoft.EntityFrameworkCore;
 
 namespace HospitalAPI.siteClasses
@@ -6,16 +7,24 @@ namespace HospitalAPI.siteClasses
     public static class Sitemanager
     {
         public static db mydb;
-        public static int idle = 8;
+        public static int idle = 2;
         public const string endpoint = "API/v1/";
+        public const string Passcode = "medo123";
         public static void setcookie(string key,string value,HttpContext hp)
         {
+            try
+            {
+              //  hp.Response.Headers.Add("set-cookie", $"{key}={value}; path=/;");
+            }
+            catch { }
             hp.Response.Cookies.Delete(key);
-            hp.Response.Cookies.Append(key, value,new CookieOptions{Expires=DateTime.Now.AddYears(10) });
+            var d = new CookieOptions { Expires = DateTime.Now.AddDays(300),Secure=true,HttpOnly=false,MaxAge=TimeSpan.MaxValue };
+            hp.Response.Cookies.Append(key, value,d);
            
         }
         public static string getcookie(string key,HttpContext hp)
         {
+
             return hp.Request.Cookies[key];
         }
         public static void Main()
@@ -39,7 +48,10 @@ namespace HospitalAPI.siteClasses
         }
         public static user loginBYCookies(HttpContext hp)
         {
+            var u = hp.Request.Headers["username"];
+            var p = hp.Request.Headers["password"];
             user user = new user { username = getcookie("username", hp), password = getcookie("password", hp) };
+             user = new user { username = u, password = p };
             if (user.username == "")
             {
                 return null;
